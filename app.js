@@ -6,7 +6,7 @@ document.getElementById('phone').addEventListener('blur', validatePhone);
 
 function validateName() {
   const name = document.getElementById('name');
-  const re = /^[a-zA-Z]{2,10}$/;
+  const re = /^[a-öA-Ö]{2,10}$/;
 
   if(!re.test(name.value)) {
     name.classList.add('is-invalid');
